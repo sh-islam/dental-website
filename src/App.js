@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './Components/Navbar';
-import About from './Components/About';
+import About from 'dental-website/Components/About';
 import IG_slider from './Components/IG_slider';
 
 
