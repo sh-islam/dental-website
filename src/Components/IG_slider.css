@@ -1,3 +1,7 @@
+
+.IG_slider{
+    max-width: fit-content;
+}
 .swiper {
     width: 500px;
     height: 500px;
