@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo-img{
+    height: 150px;
+    width: auto;
+    /* position: relative; */
+    margin-top: -25px;
+    margin-bottom: -30px;
 }
+
+.nav-links{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    padding: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    margin-top: 125px;
+    align-items: center;
+}
+.about, .IG_slider{
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text vertically */
+    margin: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about{
+    max-width: 700px;
+}
+
+
+
