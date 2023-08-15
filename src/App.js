@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from './Components/Navbar';
-import About from '/dental-website/Components/About';
-import IG_slider from './Components/IG_slider';
+import NavBar from './src/Components/Navbar';
+import About from '/dental-website/src/Components/About';
+import IG_slider from './src/Components/IG_slider';
 
 
 
